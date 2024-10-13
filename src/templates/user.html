@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makers Tech Chatbot Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div id="chat-container">
+        <div id="chat-header">
+            Makers Tech Chatbot
+        </div>
+        <iframe id="chat-frame" src="https://webchat.botframework.com/embed/recurso-para-chatbot-bot?s=tcrpfI40juY.eatiwTzIGri-mmp70umvDMbxG8EZPldDFSzayfKC3_E"></iframe>
+    </div>
+
+    <div id="content-display">
+        <div class="company-info">
+            <div class="ai-animation" id="ai-animation"></div>
+            <h1>Makers Tech</h1>
+            <div id="button-container">
+                <button class="info-button" onclick="showLaptops()">Laptops</button>
+                <button class="info-button" onclick="showMetrics()">Métricas</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Función para mostrar información sobre laptops
+        function showLaptops() {
+            const contentDisplay = document.getElementById('content-display');
+            contentDisplay.innerHTML = `
+                <div class="company-info">
+                    <h1>Laptops Disponibles</h1>
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img src="static/img/Pavilion15.png" alt="Laptop 1">
+                            <h2>Pavilion15</h2>
+                            <p>Características: 16GB RAM, Intel i7, 512GB SSD.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/300" alt="Laptop 2">
+                            <h2>Laptop 2</h2>
+                            <p>Características: 8GB RAM, Intel i5, 256GB SSD.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/300" alt="Laptop 3">
+                            <h2>Laptop 3</h2>
+                            <p>Características: 32GB RAM, AMD Ryzen 9, 1TB SSD.</p>
+                        </div>
+                    </div>
+                    <button id="back-button" onclick="goBack()">Regresar</button>
+                </div>
+            `;
+        }
+
+        // Función para mostrar métricas
+        function showMetrics() {
+            const contentDisplay = document.getElementById('content-display');
+            contentDisplay.innerHTML = `
+                <div class="company-info">
+                    <h1>Métricas</h1>
+                    <p>Aquí se muestran métricas relevantes de la empresa.</p>
+                    <button id="back-button" onclick="goBack()">Regresar</button>
+                </div>
+            `;
+        }
+
+        // Función para regresar a la vista principal
+        function goBack() {
+            const contentDisplay = document.getElementById('content-display');
+            contentDisplay.innerHTML = `
+                <div class="company-info">
+                    <div class="ai-animation" id="ai-animation"></div>
+                    <h1>Makers Tech</h1>
+                    <div id="button-container">
+                        <button class="info-button" onclick="showLaptops()">Laptops</button>
+                        <button class="info-button" onclick="showMetrics()">Métricas</button>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{% extends './base.html' %}
+
+{% block title %}Login{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Makers Tech</title>
+
+{% block customCSS %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+{% endblock %}
+
+
+
+{% block body %}
+<div class="container">
+        <img class="mb-4" src="{{ url_for('static', filename='img/logo2.png') }}" alt="" width="100">
+    <h2>Login</h2>
+    <form method="POST" action="/login">
+        
+        <!-- <label for="username">Username</label> -->
+        <!-- <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+        
+        <label for="password"></label>
+        <input type="password" class="form-control" name="password" placeholder="Password">
+
+        <button type="submit">Login</button> -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+<!-- <form class="form-signin" action="/login" method="POST">
+    <img class="mb-4" src="{{ url_for('static', filename='img/logo.png') }}" alt="" width="100">
+
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    <div class="form-floating">
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+        <label for="username">Username</label>
+    </div>
+    <div class="form-floating mt-2">
+        <input type="password" class="form-control" name="password" placeholder="Password">
+        <label for="password">Password</label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+</form> -->
+{% endblock %}

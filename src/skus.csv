@@ -1,0 +1,11 @@
+Id,Brand,Model,Processor,RAM,Storage,GraphicsCard,Display,OperatingSystem,Price,Availability
+1,HP,Pavilion 15,"Intel Core i7, 11th generation",16 GB DDR4,512 GB SSD,NVIDIA GeForce GTX 1650,15.6 inches Full HD,Windows 10 Home,950.00,5
+2,Dell,Inspiron 14 5000,"Intel Core i5, 10th generation",8 GB DDR4,256 GB SSD,Integrated Intel UHD Graphics,14 inches Full HD,Windows 11 Home,750.00,3
+3,Apple,"MacBook Air (M1, 2023)",Apple M1 Chip,8 GB unified,256 GB SSD,Integrated 7-core GPU,Retina 13.3 inches,macOS Monterey,999.00,2
+4,HP,Omen 17,"Intel Core i9, 11th generation",32 GB DDR4,1 TB SSD,NVIDIA GeForce RTX 3080,17.3 inches QHD (2560x1440) 165 Hz,Windows 11 Home,2500.00,1
+5,Lenovo,IdeaPad 3,AMD Ryzen 5 3500U,8 GB DDR4,512 GB SSD,Integrated AMD Radeon Graphics,15.6 inches Full HD,Windows 10 Home,600.00,10
+6,Acer,Aspire 5,"Intel Core i5, 11th generation",8 GB DDR4,512 GB SSD,Integrated Intel Iris Xe Graphics,15.6 inches Full HD,Windows 10 Home,650.00,6
+7,Microsoft,Surface Laptop 4,AMD Ryzen 7 4980U,16 GB DDR4,512 GB SSD,Integrated AMD Radeon Graphics,13.5 inches PixelSense Display,Windows 11 Pro,1200.00,4
+8,Asus,ROG Strix G15,AMD Ryzen 9 5900HX,32 GB DDR4,1 TB SSD,NVIDIA GeForce RTX 3070,"15.6 inches FHD, 300Hz",Windows 10 Home,2000.00,3
+9,Dell,XPS 13 (9310),"Intel Core i7, 11th generation",16 GB LPDDR4x,512 GB SSD,Integrated Intel Iris Xe Graphics,13.4 inches FHD+ InfinityEdge,Windows 11 Home,1400.00,2
+10,Razer,Blade 15,"Intel Core i7, 12th generation",16 GB DDR5,1 TB SSD,NVIDIA GeForce RTX 3060,"15.6 inches QHD, 165Hz",Windows 11 Home,2300.00,3
