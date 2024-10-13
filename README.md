@@ -19,11 +19,15 @@ Chatbot capable of providing support on Makers Tech products and recommendations
 ### Features
 1. **Chat Interface**: The left side of the screen is dedicated to the chatbot, which interacts with users and provides answers about product availability, features, and pricing. The chatbot is embedded using the Microsoft Bot Framework.
 
+![home](home.png)
+
 2. **Content Display Area**: The right side of the screen displays additional information. Users can choose between viewing product details (e.g., laptops) and company metrics by clicking on buttons provided.
 
 3. **Carousel for Laptops**: When the user selects "Laptops", a carousel displays different laptop models, along with images and features. The carousel is styled to make navigation easy and visually appealing.
 
 4. **Back Button**: A "Back" button is available to return to the main menu after selecting a category, such as laptops or metrics.
+
+![laptops](laptops.png)
 
 ### Technologies Used
 1. **HTML & CSS**: The layout and styling of the interface are implemented using HTML and CSS. CSS provides a modern, gradient background and an elegant Apple-like appearance with smooth transitions for buttons and elements.
