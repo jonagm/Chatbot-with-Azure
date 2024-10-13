@@ -14,7 +14,7 @@ Chatbot capable of providing support on Makers Tech products and recommendations
 # Makers Tech Chatbot Interface
 
 ## Overview
-This project is a dual interface for an e-commerce chatbot designed to assist users with inquiries about products available at Makers Tech, including inventory, features, and pricing. The chatbot is integrated into the left side of the interface, while the right side displays additional information based on user interaction. The design aims to offer a visually appealing and user-friendly experience, providing real-time answers to customer queries.
+**Makers Tech Chatbot Interface** is a dual interface for an e-commerce chatbot designed to assist users with inquiries about products available at Makers Tech, including inventory, features, and pricing. The chatbot is integrated into the left side of the interface, while the right side displays additional information based on user interaction. The design aims to offer a visually appealing and user-friendly experience, providing real-time answers to customer queries.
 
 ## Features
 1. **Chat Interface**: The left side of the screen is dedicated to the chatbot, which interacts with users and provides answers about product availability, features, and pricing. The chatbot is embedded using the Microsoft Bot Framework.
